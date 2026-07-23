@@ -1,0 +1,1 @@
+function App(){function welcome(){alert("Welcome to React")} return <button onClick={welcome}>Click Me</button>} export default App;

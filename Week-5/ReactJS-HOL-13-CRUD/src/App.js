@@ -1,0 +1,1 @@
+import {useState} from "react"; export default function App(){const[i,setI]=useState([]);const[t,setT]=useState("");return<><input value={t} onChange={e=>setT(e.target.value)}/><button onClick={()=>{setI([...i,t]);setT("")}}>Add</button><ul>{i.map((x,n)=><li key={n}>{x}</li>)}</ul></>}

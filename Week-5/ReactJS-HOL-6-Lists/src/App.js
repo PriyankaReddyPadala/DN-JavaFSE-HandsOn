@@ -1,0 +1,1 @@
+function App(){const fruits=["Apple","Banana","Orange"]; return <ul>{fruits.map((f,i)=><li key={i}>{f}</li>)}</ul>} export default App;

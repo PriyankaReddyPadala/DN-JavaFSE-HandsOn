@@ -1,0 +1,1 @@
+function App(){return(<div><h1>Hello React</h1><p>Welcome to ReactJS HOL-1</p></div>)} export default App;

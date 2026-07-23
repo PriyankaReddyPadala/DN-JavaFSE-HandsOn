@@ -1,0 +1,1 @@
+import Student from "./Student"; function App(){return(<><Student name="John" course="React"/><Student name="David" course="Java"/></>)} export default App;

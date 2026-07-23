@@ -1,0 +1,1 @@
+import Child from "./Child"; export default function App(){return <Child message="Hello from Parent"/>}
